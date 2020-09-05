@@ -8,12 +8,12 @@ on:
     tags:
     - '**'
     paths:
-    - '.devcontainer/**'
+    - '.devcontainer/docker/**'
     - '.github/workflows/build_docker.yml'
 
 env:
   IMAGE_NAME: calendar-insight-dev
-  DOCKERFILE_PATH: .devcontainer/
+  DOCKERFILE_PATH: .devcontainer/docker/
 
 jobs:
 
