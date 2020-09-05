@@ -2,12 +2,13 @@
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.134.1/containers/python-3
 {
 	"name": "Python 3",
-	"build": {
-		"dockerfile": "Dockerfile",
-		"context": "..",
-		// Update 'VARIANT' to pick a Python version: 3, 3.6, 3.7, 3.8 
-		"args": { "VARIANT": "3" }
-	},
+	// "build": {
+	// 	"dockerfile": "./docker/Dockerfile",
+	// 	"context": "../..",
+	// 	// Update 'VARIANT' to pick a Python version: 3, 3.6, 3.7, 3.8 
+	// 	"args": { "VARIANT": "3" }
+	// },
+	"image": "wangyoucao577/calendar-insight-dev",
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": { 
